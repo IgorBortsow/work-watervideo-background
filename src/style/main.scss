@@ -1,0 +1,8 @@
+// Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
+@import "variables";
+// Подключение своих SCSS файлов
+@import "my";
+@import "animation/animation";
+@import "blocks/header";
+@import "blocks/home";
+@import "blocks/video";

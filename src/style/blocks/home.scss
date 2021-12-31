@@ -1,0 +1,64 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  .content {
+    text-align: center;
+    text-shadow: $text-shadow;
+
+    h1 {
+      font-size: 9rem;
+      color: $blue;
+    }
+    h2 {
+      font-size: 7rem;
+      color: #fff;
+    }
+
+    button {
+      outline: none;
+      border: none;
+      border-radius: 5rem;
+      height: 4rem;
+      width: 15rem;
+      background: $blue;
+      cursor: pointer;
+      font-size: 1.8rem;
+      color: #fff;
+      box-shadow: $box-shadow;
+
+      &:hover {
+        background: $black;
+        letter-spacing: 0.2rem;
+      }
+    }
+    .icons {
+      margin-top: 3rem;
+
+      a {
+        font-size: 1.4rem;
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        border-radius: 5rem;
+        background: #fff;
+        text-decoration: none;
+        color: $blue;
+        text-shadow: none;
+        box-shadow: $box-shadow;
+        margin: 0 0.5rem;
+
+        &:hover {
+          background: $black;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
